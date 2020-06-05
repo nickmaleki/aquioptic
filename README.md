@@ -2,7 +2,7 @@
 A simple wrapper for the python-seabreeze library that lets you control your Ocean Optics device with high level commands. 
 
 ## Prerequisites
-A python environment with python-seabreeze installed
+A python environment with python-seabreeze installed. 
 If you are working with an Ocean Optics USB4000 You might need to install "windows-driver-files" for the drviers on the USB4000. 
 You might be able to find more info [here](https://github.com/tbensky/labview_usb4000)
 
