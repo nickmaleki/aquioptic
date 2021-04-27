@@ -3,17 +3,19 @@ A simple wrapper for the python-seabreeze library that lets you control your Oce
 
 ## Prerequisites
 A python environment with python-seabreeze installed. 
-If you are working with an Ocean Optics USB4000 You might need to install "windows-driver-files" for the drviers on the USB4000. 
-You might be able to find more info [here](https://github.com/tbensky/labview_usb4000)
 
 ## Getting Started
-You can create a new conda environment with python 3.6 through the anaconda prompt using the commands: 
+You can create a new conda environment with python through the anaconda prompt using the following commands: 
 ```
-conda create --name <ENVIRONMENT NAME> python=3.6 conda
+conda create --name <ENVIRONMENT NAME> conda
 conda activate <ENVIRONMENT NAME>
-conda install -c poehlmann python-seabreeze 
+conda install -c conda-forge python-seabreeze 
+seabreeze_os_setup
 conda env list
 ```
 
 ## Example Code
 See exampleOptic.py for runnable examples
+
+## Changelog
+4/27/2021 python-seabreeze was recently updated to the newest version of python, so there is no need to downgrade your conda env to 3.6 anymore. 
